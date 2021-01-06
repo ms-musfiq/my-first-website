@@ -1,0 +1,53 @@
+/* ========================================
+common css
+========================================= */
+body{
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 0px 100px;
+}
+/* ========================================
+navigation area
+========================================= */
+header nav ul{
+    text-align: right;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+header nav ul li a:hover{
+    color: #F86A61;
+    transition: .3s;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+/* ========================================
+top hero area
+========================================= */
+.top-header{
+    margin-top: 100px;
+    width: 100%;
+}
+.top-div{
+    width: 40%;
+}
+.top-div h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#name-color{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F86A61;
+}
